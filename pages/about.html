@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Crypto Marketplace</title>
+</head>
+
+<body>
+
+    <div class="overlay">
+        <button id="closeMenu"><i class="ri-close-circle-line"></i></button>
+
+        <div class="nav-links">
+            <a href="/index.html">Home</a>
+            <a href="/pages/charts.html">Charts</a>
+            <a href="/pages/search.html">Search</a>
+            <a href="/pages/about.html" class="active">About US</a>
+        </div>
+
+    </div>
+
+    <div class="main">
+
+        <div class="global">
+            <p>Coins: <b id="coins-count">N/A</b></p>
+            <p>Exchanges: <b id="exchanges-count">N/A</b></p>
+            <p>Market Cap: <span><b id="marketCap">N/A</b> <span id="marketCapChange">N/A <i
+                            class="ri-arrow-down-s-fill"></i></span></span></p>
+            <p>24H Vol: <b id="volume">N/A</b></p>
+            <p>Dominance: <b id="dominance">BTC N/A% - ETH N/A%</b></p>
+        </div>
+
+        <nav>
+            <div class="left-section">
+                <button id="openMenu"><i class="ri-menu-line"></i></button>
+                <a href="#" class="logo">
+                    <img src="/assets/images/Downpic.cc-1953675967.jpg" alt="Logo">
+                  </a>               
+                   <div class="nav-links">
+                    <a href="/index.html">Home</a>
+                    <a href="/pages/charts.html">Charts</a>
+                    <a href="/pages/search.html">Search</a>
+                    <a href="/pages/about.html" class="active">About US</a>
+                </div>
+            </div>
+            <div class="right-section">
+                <form class="search" id="searchForm">
+                    <i class="ri-search-line"></i>
+                    <input type="text" id="searchInput" placeholder="Search for an asset..." required
+                        autocomplete="off">
+                </form>
+                <i id="theme-toggle" class="ri-sun-line"></i>
+            </div>
+        </nav>
+
+        <div class="about-container">
+            <div class="info">
+                <h3>The [Comapny] Narrative</h3>
+                <p>
+                    Welcome to knerd1, your top choice for effortless and secure cryptocurrency transactions. Our goal is to empower both individuals and organizations by delivering a platform that merges cutting-edge technology, robust security, and intuitive design to fulfill all your digital asset requirements.
+                    <br><br>
+                    At knerd1, we picture a future where digital currency is within reach for everyone. We aim to connect traditional finance with the future of money by providing a platform that streamlines cryptocurrency trading while upholding the utmost standards of safety and dependability.
+                </p>
+                <div class="buttons">
+                    <button>Learn More</button>
+                    <button>Contact US</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="/assets/images/closeup-golden-bitcoins-dark-reflective-surface-histogram-decreasing-crypto.jpg" alt="about">
+            </div>
+        </div>
+
+
+    </div>
+
+    <button onclick="scrollToTop()" id="scrollTop"><i class="ri-arrow-up-s-line"></i></button>
+
+
+    <script src="../assets/js/global.js"></script>
+</body>
+
+</html>
